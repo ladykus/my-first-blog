@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Django</title>
+</head>
+<body>
+	<h1>Привет, мир!</h1>
+	<br>
+	<h1>{{ex}}</h1>
+	<form  action="/polls/name">
+		<p>Введите имя:</p>
+		<input type='text' name="A" id="A">
+		<input type='submit' value='Далее'>
+		<br><br>
+		<a href="{% url 'black' %}">Черный фон</a>
+		<br><br>
+		<a href="{% url 'english' %}">English</a>
+	</form>
+</body>
+</html>
+
+
+
